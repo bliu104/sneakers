@@ -12,8 +12,6 @@ const PopUp = ({ component, children }) => {
   const handleClose = () => {
     setAnchorEl(null);
   };
-
-  console.log(children)
   return (
     < div >
       <div onClick={handleClick}>{component}</div>

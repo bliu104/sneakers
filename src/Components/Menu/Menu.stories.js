@@ -27,10 +27,8 @@ const stuff = [{
 }]
 
 export const PopUpComp = () => {
-
-
   return (
-    <PopUp component={button()} >
+    <PopUp component={button()}>
       {stuff}
     </PopUp >
   )
